@@ -1,0 +1,26 @@
+const BASE_URL = "http://localhost:3000";
+
+export const Endpoints = {
+  CREATEUSER_API: BASE_URL + "/createUser",
+  LOGIN_API: BASE_URL + "/login",
+  GETCOMPANYNAMES_API: BASE_URL + "/getCompanyNames",
+  SETADDITONALDEATILS_API: BASE_URL + "/setAddtionalDetails",
+  CHECKADDITIONALDETAILS_API: BASE_URL + "/checkAddtionalDetails",
+  UPDATEDISPLAYNAME_API: BASE_URL + "/updatedisplayName",
+  CHANGEPASSWORD_API: BASE_URL + "/changePassword",
+  CHECKOLDPASSWORD_API: BASE_URL + "/checkOldPassword",
+  ISREGISTEREDUSER_API: BASE_URL + "/isRegisteredUser",
+  VERIFYEMAIL_API: BASE_URL + "/verifyIdentity",
+  RESETPASSWORDREQUEST_API: BASE_URL + "/resetPasswordRequest",
+  GETALLUSERSDETAILS_API: BASE_URL + "/getAllUsers",
+  ACCEPTRESETPASSWORDREQUEST_API: BASE_URL + "/acceptResetPasswordRequest",
+  DELETEUSER_API: BASE_URL + "/deleteUser",
+  TOGGLEACTIVE_API: BASE_URL + "/toggleActive",
+  GETUSERDETAILS_API: BASE_URL + "/getUserDetails",
+  EDITUSERDETAILS_API: BASE_URL + "/editUserDetails",
+  GETROLE_API: BASE_URL + "/getRole",
+  SETPROGRAMINPUT_API: BASE_URL + "/setProgramInput",
+  GETPROGRAMINPUT_API: BASE_URL + "/getProgramInputValues",
+  DELETEPROGRAMINPUT_API: BASE_URL + "/deleteProgramInput",
+  EDITPROGRAMINPUT_API: BASE_URL + "/editProgramInput",
+};
